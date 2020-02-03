@@ -4,7 +4,7 @@
 #include <cmath>
 #include <float.h>
 #include <fstream>
-#include "prog2.h"
+#include "kruskal.h"
 using namespace std;
 /*
 Implementing - Kruskal's Algorithm a minimum cost spanning tree algorithm
