@@ -97,6 +97,7 @@ void printMST(Graph *graph, int E){
    //we must sort them in order of their indexes (I created function compEdgeIndxs to do just that with qsort)
    qsort(graph->result, E, sizeof(graph->result[0]), compEdgeIndxs);
    int i=0;
+   cout <<"\n SOLUTION: \n "<<endl; 
    cout << setprecision(4) << fixed; //set precision of cout to 4 decimal places
    for (i = 0; i < E; ++i)
        cout<<graph->result[i].vertA->id<<" "<<graph->result[i].vertB->id<<endl;       
